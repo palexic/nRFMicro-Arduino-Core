@@ -1,0 +1,23 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "PlatformIO",
+      "intelliSenseMode": "gcc-mingw-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}/cores/nRF5",
+        "${workspaceFolder}/variants/SuperMini_nRF52840",
+        "${workspaceFolder}/cores/arduino"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/cores/nRF5",
+          "${workspaceFolder}/variants/SuperMini_nRF52840"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
