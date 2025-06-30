@@ -1,0 +1,24 @@
+{
+  "build": {
+    "core": "nRF5",
+    "cpu": "cortex-m4",
+    "f_cpu": "64000000L",
+    "mcu": "nRF52840_XXAA",
+    "variant": "SuperMini_nRF52840",
+    "ldscript": "nrf52840_s140_v7.ld"
+  },
+  "debug": {
+    "openocd_config": ["interface/cmsis-dap.cfg","target/nrf52.cfg"]
+  },
+  "frameworks": ["arduino"],
+  "name": "SuperMini nRF52840",
+  "platform": "nordicnrf52",
+  "upload": {
+    "protocol": "nrfutil",
+    "maximum_size": 811008,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "url": "https://github.com/pdcook/nRFMicro-Arduino-Core",
+  "vendor": "joric"
+}
